@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icono -->
+    <link rel="shortcut icon" href="../assets/icons/mlekos.jpg" type="image/x-icon">
+    <title>Mleko's-order</title>
+    <!-- Bootstrap CSS -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="body">
+    <!-- Barra de navegacion -->
+    <header>
+        <div class="logo">
+            <a href="../index.html">
+                <img class="logo-img" src="../assets/icons/mlekos-photoshop.png" alt="logo de la compañia">
+            </a> 
+        </div>
+        <nav>
+            <ul class="estilo-links">
+                <li>
+                    <a href="../index.html">inicio</a>
+                </li>
+                <li>
+                    <a href="./menu.html">menú</a>
+                </li>
+                <li>
+                    <a href="./biografia.html">biografia</a>
+                </li>
+                <li>
+                    <a href="./pide-aqui.html">¡pide aquí!</a>
+                </li>
+                <li>
+                    <a href="./registrarse.html">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la pagina -->
+    <main>
+        <form action="procesar.php" method="post">
+            <!-- Input nombre -->
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Mateo">
+            </div>
+
+            <div>
+                <!-- Input apellido -->
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" placeholder="casillo">
+            </div>
+
+            <div>
+                <!-- Input email -->
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="email" placeholder="nombreapellido@gmail.com">
+            </div>
+            <div>
+                <!-- Input password -->
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" required>
+            </div>
+
+            <!-- Radio -->
+            <h3>Seleccione su genero: </h3>
+            <label for="genero">Femenino</label>
+            <input type="radio" name="genero" value="femenino" >
+
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" value="masculino" >
+
+            <label for="genero">Prefiero no decirlo</label>
+            <input type="radio" name="genero" value="no-decirlo" >
+
+            <!-- Checkbox -->
+            <h3>¿Que hamburguesa desea pedir?</h3>
+            <label for="hamburguesa">simple cheeseburguer</label>
+            <input type="checkbox" name="hamburguesa" value="simple">
+
+            <label for="hamburguesa">doble cheeseburguer</label>
+            <input type="checkbox" name="hamburguesa" value="doble">
+
+            <label for="hamburguesa">triple cheeseburguer</label>
+            <input type="checkbox" name="hamburguesa" value="triple">
+
+            <h3>Dejame tu opinion</h3>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar Formulario</button>
+
+        </form>
+    </main>
+    <!-- Pie de pagina -->
+    <footer class="pieDePagina">
+        <div>
+            <h1>M'Lekos</h1>
+        </div>
+        <div>
+            <img class="iconos-piedepagina" src="../assets/icons/twitter-logo-24.png" alt="">
+        </div>
+        <div>
+            <img class="iconos-piedepagina" src="../assets/icons/whatsapp-logo-24.png" alt="">
+        </div>
+        <div>
+            <img class="iconos-piedepagina" src="../assets/icons/instagram-logo-24.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
