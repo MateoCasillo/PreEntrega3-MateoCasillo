@@ -17,32 +17,37 @@
 <body>
     <!-- Barra de Navegacion -->
     <header class="header">
-        <div class="logo">
-            <img class="logo-img" src="../assets/icons/mlekos-photoshop.png" alt="logo de la compañia">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./menu.html">Menú</a>
-                </li>
-                <li>
-                    <a href="./biografia.html">Biografía</a>
-                </li>
-                <li>
-                    <a href="./pide-aqui.html">¡Pide aquí!</a>
-                </li>
-                <li>
-                    <a href="./registrarse.html" class="btn"><button>Registrarse</button></a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg --bs-warning-bg-subtle">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="../assets/icons/mlekos-photoshop.png" width="100" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse barra-de-navegacion" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item espacio-entre-links">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item espacio-entre-links">
+                            <a class="nav-link" href="./menu.html">Menú</a>
+                        </li>
+                        <li class="nav-item espacio-entre-links">
+                            <a class="nav-link" href="./biografia.html">Biografía</a>
+                        </li>
+                        <li class="nav-item espacio-entre-links">
+                            <a class="nav-link" href="./pide-aqui.html">¡Pide Aquí!</a>
+                        </li>
+                        <li class="nav-item espacio-entre-links">
+                            <button type="button" class="btn btn-danger btn-sm"><a class="nav-link" href="./registrarse.html">Registrarse</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Contenido Principal de la Pagina -->
     <main>
-
+        <button class="btn btn-primary">Hola Mundo</button>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente vitae illo velit possimus, sit placeat eveniet iusto veritatis quae quo dolorem neque sequi atque? Tempore ad, itaque ullam quo quam obcaecati aut animi nostrum fuga eius repellendus perspiciatis facilis earum molestiae, magnam et libero, laudantium suscipit nihil cum consequuntur saepe aliquid quisquam accusantium. Similique, adipisci voluptate! Vel pariatur exercitationem et laborum. Magnam neque, illum in qui quam rem nesciunt dolorem nam blanditiis itaque fugiat optio mollitia ratione aperiam animi officia soluta. Eum alias, possimus, exercitationem aspernatur quod nisi similique autem cupiditate dignissimos fugit iusto, aut temporibus suscipit magnam ut molestias ad sint? Veniam minima eum minus esse. Nisi quia numquam illum sit, pariatur ut voluptatibus facilis quae omnis incidunt ab reprehenderit aut voluptas. Modi quisquam odit saepe cumque, unde architecto corporis tempore quidem alias doloribus neque quo ipsam eum blanditiis, nemo voluptatem consequuntur porro obcaecati esse! Nesciunt laborum nam maiores! Quibusdam dicta veniam numquam deserunt ab magni quaerat dolorum temporibus voluptatibus culpa ut earum cum optio dolores, corporis fugiat ullam similique officia maiores, repellendus voluptate neque assumenda quae tempora iusto temporibus! Consectetur ab distinctio non necessitatibus error ipsum dicta! Sapiente quaerat est explicabo enim, nemo eum accusantium laborum aspernatur consectetur quod</p>
 
     </main>
@@ -84,5 +89,6 @@
             </div>
         </div>
     </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
