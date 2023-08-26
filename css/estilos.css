@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Serif', serif;
   font-size: 800;
 }
 
@@ -30,7 +30,8 @@ body {
 }
 
 .texto-mlekos-piedepagina {
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .barra-de-navegacion{
@@ -167,18 +168,47 @@ body {
 
 
 /* menu */
+
+.titulo-mas-grande{
+  color: #541f00;
+  padding-left: 275px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.texto-titulo-hamburguesas{
+  color: #541f00;
+  padding-left: 325px;
+  font-weight: 800;
+}
+
 .flex-container{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 17%;
 }
 
 .flex-item{
-  background-color: #541f00;
+  background-color: #f5ebdc;
   color: #fff;
   margin: 20px 40px;
   height: 300px;
   min-width: 300px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.flex-item img:hover{
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.texto-abajo-hamburguesas{
+  text-align: center;
+  color: #541f00;
 }
 
 /* Pie de Pagina */
