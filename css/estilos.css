@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 800;
 }
 
@@ -238,6 +238,22 @@ a{
 .texto-abajo-hamburguesas{
   text-align: center;
   color: #541f00;
+}
+
+/* biografia */
+.caja-biografia{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+
+.descripcion-biografia{
+  font-size: 21px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Pie de Pagina */
