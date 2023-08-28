@@ -60,6 +60,8 @@ body {
   margin: auto;
 }
 
+/* formulario */
+
 .main {
   background-color: #f5ebdc;
   background-image: radial-gradient(#541f00 0.5px, transparent 0.5px), radial-gradient(#541f00 0.5px, #f5ebdc 0.5px);
@@ -166,6 +168,33 @@ body {
   transform: scale(1);
 }
 
+/* mapa index */
+
+#mapa-inicio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+  margin: auto;
+  height: 575px;
+  background: #541f00;
+  color: #f5ebdc;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.texto-mapa{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 700;
+  color: orange;
+}
+
+#imagen-mapa{
+  border-radius: 20px;
+}
 
 /* menu */
 
